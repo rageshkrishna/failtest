@@ -14,3 +14,9 @@ script:
 
 after_script:
   - echo "This must run"
+  
+after_success:
+  - echo "Success!"
+  
+after_failure:
+  - echo: "Failure :("
