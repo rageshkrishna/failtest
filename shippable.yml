@@ -11,12 +11,13 @@ install: true
 
 script:
   - echo "Inside script"
-  - exit 1
+  - foobar
+  - foo
 
 after_script:
   - echo "This must run"
-  - exit 127
-  - foobar
+  - fizzbin
+  - fizz
   
 after_success:
   - echo "Success!"
