@@ -15,6 +15,7 @@ script:
 
 after_script:
   - echo "This must run"
+  - exit 127
   - foobar
   
 after_success:
