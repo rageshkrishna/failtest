@@ -1,8 +1,12 @@
 language: node_js
+
 node_js:
   - 0.10
+  
 install: true
+
 script:
- - exit 1
+  - exit 1
+
 after_script:
- - echo "This must run"
+  - echo "This must run"
