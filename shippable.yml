@@ -19,4 +19,4 @@ after_success:
   - echo "Success!"
   
 after_failure:
-  - echo: "Failure :("
+  - echo "Failure :("
