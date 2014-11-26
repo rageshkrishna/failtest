@@ -11,6 +11,7 @@ install: true
 
 script:
   - echo "Inside script"
+  - foo
 
 after_script:
   - echo "This must run"
