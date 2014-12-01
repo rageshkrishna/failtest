@@ -11,6 +11,7 @@ install: true
 
 script:
   - echo "Inside script"
+  - sleep 75
   - foo
 
 after_script:
